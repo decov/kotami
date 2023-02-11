@@ -2,7 +2,7 @@
   "name": "kotami",
   "version": "1.0.0",
   "description": "multipurpose discord bot built with discord.js",
-  "main": "index.js",
+  "main": "bot.js",
   "author": {
     "name": "decov",
     "url": "https://decov.github.io/me/"
