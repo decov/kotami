@@ -1,0 +1,22 @@
+{
+  "name": "kotami",
+  "version": "1.0.0",
+  "description": "multipurpose discord bot built with discord.js",
+  "main": "index.js",
+  "author": {
+    "name": "decov",
+    "url": "https://decov.github.io/me/"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/decov/kotami#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decov/kotami.git"
+  },
+  "bugs": {
+    "url": "https://github.com/decov/kotami/issues"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
+}
