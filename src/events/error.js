@@ -3,5 +3,5 @@
  * @param {Error} error
  */
 module.exports = async (client, error) => {
-    client.logger.error(`client error`, error);
+    client.logger.error(`erro de client`, error);
 };
