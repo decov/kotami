@@ -19,6 +19,7 @@
   "dependencies": {
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
+    "mongoose": "^6.9.1",
     "pino": "^8.10.0",
     "pino-pretty": "^9.2.0",
     "table": "^6.8.1"
