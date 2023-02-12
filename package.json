@@ -20,6 +20,7 @@
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
+    "fixedsize-map": "^1.0.1",
     "moment": "^2.29.4",
     "mongoose": "^6.9.1",
     "pino": "^8.10.0",
