@@ -1,3 +1,4 @@
+// consts
 const { ChannelType } = require('discord.js');
 
 /**
