@@ -1,5 +1,8 @@
 // consts
-const { EmbedBuilder, ApplicationCommandType } = require('discord.js');
+const {
+    EmbedBuilder,
+    ApplicationCommandType
+} = require('discord.js');
 
 const { EMBED_COLORS } = require('@root/config');
 
@@ -9,7 +12,9 @@ const { EMBED_COLORS } = require('@root/config');
 module.exports = {
     name: "avatar",
     description: "mostra informações de avatar do usuário",
+
     type: ApplicationCommandType.User,
+
     enabled: true,
     ephemeral: true,
 
@@ -23,12 +28,35 @@ module.exports = {
 
 function getAvatar(user) {
     // tamanhos de imagens (64 -> 2048)
-    const x64 = user.displayAvatarURL({ extension: "png", size: 64 });
-    const x128 = user.displayAvatarURL({ extension: "png", size: 128 });
-    const x256 = user.displayAvatarURL({ extension: "png", size: 256 });
-    const x512 = user.displayAvatarURL({ extension: "png", size: 512 });
-    const x1024 = user.displayAvatarURL({ extension: "png", size: 1024 });
-    const x2048 = user.displayAvatarURL({ extension: "png", size: 2048 });
+    const x64 = user.displayAvatarURL({ 
+        extension: "png",
+        size: 64
+    });
+
+    const x128 = user.displayAvatarURL({ 
+        extension: "png",
+        size: 128
+    });
+
+    const x256 = user.displayAvatarURL({ 
+        extension: "png",
+        size: 256
+    });
+
+    const x512 = user.displayAvatarURL({ 
+        extension: "png",
+        size: 512
+    });
+
+    const x1024 = user.displayAvatarURL({ 
+        extension: "png",
+        size: 1024
+    });
+
+    const x2048 = user.displayAvatarURL({ 
+        extension: "png",
+        size: 2048
+    });
 
     const embed = new EmbedBuilder()
         .setTitle(`avatar de ${user.username}`)
