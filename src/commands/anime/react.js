@@ -1,5 +1,9 @@
 // consts
-const { EmbedBuilder, ApplicationCommandOptionType } = require('discord.js');
+const { 
+    EmbedBuilder,
+    ApplicationCommandOptionType
+} = require('discord.js');
+
 const NekosLife = require('nekos.life');
 
 const neko = new NekosLife();
