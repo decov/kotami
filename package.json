@@ -39,5 +39,9 @@
     "pino-pretty": "^9.2.0",
     "sourcebin_js": "^0.0.3-ignore",
     "table": "^6.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-plugin-jsdoc": "^40.0.0"
   }
 }
