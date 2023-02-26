@@ -6,14 +6,34 @@
         "baseUrl": "./",
 
         "paths": {
-            "@root/*": ["./*"],
-            "@handlers/*": ["./src/handlers/*"],
-            "@helpers/*": ["./src/helpers/*"],
-            "@schemas/*": ["./src/database/schemas/*"],
-            "@src/*": ["./src/*"],
-            "@structures/*": ["./src/structures/*"]
+            "@root/*": [
+                "./*"
+            ],
+
+            "@handlers/*": [
+                "./src/handlers/*"
+            ],
+
+            "@helpers/*": [
+                "./src/helpers/*"
+            ],
+
+            "@schemas/*": [
+                "./src/database/schemas/*"
+            ],
+
+            "@src/*": [
+                "./src/*"
+            ],
+
+            "@structures/*": [
+                "./src/structures/*"
+            ]
         }
     },
 
-    "exclude": ["node_modules", "**/node_modules/*"]
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
 }
