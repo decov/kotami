@@ -17,6 +17,8 @@
     "url": "https://github.com/decov/kotami/issues"
   },
   "dependencies": {
+    "@lavaclient/queue": "^2.1.1",
+    "@lavaclient/spotify": "^3.1.0",
     "@vitalets/google-translate-api": "^9.1.0",
     "ascii-table": "^0.0.9",
     "btoa": "^1.2.1",
@@ -30,6 +32,7 @@
     "express-session": "^1.17.3",
     "fixedsize-map": "^1.0.1",
     "iso-639-1": "^2.1.15",
+    "lavaclient": "^4.1.1",
     "module-alias": "^2.2.2",
     "moment": "^2.29.4",
     "mongoose": "^6.9.1",
