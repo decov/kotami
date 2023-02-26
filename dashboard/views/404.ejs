@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <%- include('includes/head') %>
+
+    <body class="hold-transition skin-blue sidebar-mini">
+        <div class="wrapper">
+            <!-- o header é o topbar -->
+            <%- include('includes/header') %>
+
+            <!-- o sidebar inclui o menu -->
+            <%- include('includes/sidebar') %>
+
+            <!-- wrapper de conteúdo, contém o conteúdo da página -->
+            <div class="content-wrapper">
+                <!-- conteúdo do header (header da página) -->
+                <section class="content-header">
+                    <h1>erro 404</h1>
+                </section>
+
+                <!-- conteúdo principal -->
+                <section class="content">
+                    <div class="error-page">
+                        <h2 class="headline text-yellow">404</h2>
+
+                        <div class="error-content">
+                            <h3>
+                                <i class="fa fa-warning text-yellow"></i> página não encontrada...
+                            </h3>
+                            
+                            <p>
+                                não foi possível encontrar a página que você está procurando por. você pode voltar para o dashboard ou tentar usar a forma de pesquisa...
+                            </p>
+
+                            <form class="search-form" action="/selector">
+                                <div class="input-group">
+                                    <input type="text" name="q" class="form-control" placeholder="procurar por servidores...">
+
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn btn-warning btn-flat">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- /.input-group -->
+                            </form>
+                        </div>
+                        <!-- /.error-content -->
+                    </div>
+                    <!-- /.error-page -->
+                </section>
+                <!-- /.content -->
+            </div>
+            <!-- /.content-wrapper -->
+
+            <%- include('includes/footer') -%>
+        </div>
+        <!-- /.wrapper -->
+    </body>
+</html>
